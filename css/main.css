@@ -188,6 +188,7 @@ body{
 }
 .emulator{
 	padding: 20px;
+	overflow: auto;
 }
 .emulator-title{
 	font-size: 40px;
@@ -200,33 +201,5 @@ body{
 #emulator ul{
 	margin-left: 20px;
 }
-
-.frame
-{
-	
-	border-style: solid !important;
-    width: 100%;
-	border: 0;
-	
-	position:absolute; 
-	top: 15px; 
-	align-items: center;
-	margin: auto !important;
-	padding: auto !important;
-
-
-    -ms-transform: scale(0.25);
-    -moz-transform: scale(0.25);
-    -o-transform: scale(0.85);
-    -webkit-transform: scale(0.0);
-    transform: scale(0.85);
-
-    -ms-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-}
-
 
 
