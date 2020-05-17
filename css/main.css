@@ -42,7 +42,7 @@ body{
 /*Application services Section*/
 
 #services{
-	padding: 40px 0px;
+	padding: 40px 0px 0px 0px;
 }
 .services-img{
 	width: 20%;
@@ -128,7 +128,7 @@ body{
   /* procedure */
 
 #procedure{
-	padding: 40px 0px;
+	padding: 40px 0px 0px 0px;
 }
 .procedure-img{
 	width: 20%;
@@ -184,7 +184,7 @@ body{
 /* emulator */
 #emulator{
 	
-	padding: 40px 0px;
+	padding: 40px 0px 0px 0px;
 }
 .emulator{
 	padding: 20px;
@@ -201,5 +201,60 @@ body{
 #emulator ul{
 	margin-left: 20px;
 }
+
+
+/*social Media Section*/
+
+#social-media{
+	background-color: #f8f9fa;
+	padding: 40px 0px 40px 0px;
+}
+#social-media p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px; 
+}
+.social-icon i{
+	width: 50px;
+	transition: 0.5s;
+}
+.social-icon a:hover i{
+	transform: translateY(-10px);
+}
+
+/*footer section*/
+
+#footer{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	color: #fff;
+}
+.footer-box{
+	padding: 20px;
+}
+.footer-box img{
+	width: 60px;
+	margin-bottom: 20px;
+}
+
+hr{
+	background-color: #fff;
+}
+.copyright{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
