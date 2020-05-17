@@ -183,7 +183,7 @@ body{
 
 /* emulator */
 #emulator{
-	background-color: #f8f9fa;
+	
 	padding: 40px 0px;
 }
 .emulator{
@@ -203,9 +203,17 @@ body{
 
 .frame
 {
-    border-style: solid !important;
+	
+	border-style: solid !important;
     width: 100%;
-    border: 0;
+	border: 0;
+	
+	position:absolute; 
+	top: 15px; 
+	align-items: center;
+	margin: auto !important;
+	padding: auto !important;
+
 
     -ms-transform: scale(0.25);
     -moz-transform: scale(0.25);
