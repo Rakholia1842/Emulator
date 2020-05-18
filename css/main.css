@@ -14,7 +14,7 @@ body{
 	z-index: 100;
 }
 .navbar{
-	background-image: linear-gradient(to right,#ffffff,#ffffff,#5f1782);
+	background-image: linear-gradient(to right,#a5d9fa,#c6e9ff);
 	padding: 0 !important;
 }
 .navbar-brand img{
@@ -58,7 +58,7 @@ body{
 }
 .title::before{
 	content: '';
-	background-color: #7b1798;
+	background-color: #f3974c;
 	height: 5px;
 	width: 200px;
 	margin-right: auto;
@@ -68,7 +68,7 @@ body{
 }
 .title::after{
 	content: '';
-	background-color: #7b1798;
+	background-color: #f3974c;
 	height: 10px;
 	width: 50px;
 	margin-right: auto;
@@ -82,14 +82,14 @@ body{
 	padding: 8px 25px;
 	border: none;
 	border-radius: 20px;
-    background-color: #a517ba;
+    background-color: #f3974c;
 }
 #services .btn-primary:hover{
 	box-shadow: none;
 	padding: 8px 25px;
 	border: none;
 	border-radius: 20px;
-    background-color: #5f1782;
+    background-color: #f07539;
     font-weight: 600;
     font-size: 18px;
 }
@@ -142,7 +142,7 @@ body{
 	margin-top: 25px;
 	text-transform: uppercase;
 }
-.title::before{
+/* .title::before{
 	content: '';
 	background-color: #7b1798;
 	height: 5px;
@@ -162,13 +162,13 @@ body{
 	margin-bottom: 40px;
 	display: block;
 	transform: translateY(8px);
-}
+} */
 #procedure .btn-primary{
 	box-shadow: none;
 	padding: 8px 25px;
 	border: none;
 	border-radius: 20px;
-    background-color: #a517ba;
+    background-color: #f3974c;
 }
 #procedure .btn-primary:hover{
 	box-shadow: none;
@@ -177,7 +177,7 @@ body{
 	border-radius: 20px;
     background-color: #ffff;
     font-weight: 700;
-    color: #5f1782;
+    color: #f07539;
     
 }
 
@@ -225,23 +225,17 @@ body{
 /*footer section*/
 
 #footer{
-	background-image: linear-gradient(to right,#a517ba,#5f1782);
-	color: #fff;
+	background-color: #d1e4f8;
+	color: rgb(37, 37, 37);
 }
 .footer-box{
-	padding: 20px;
-}
-.footer-box img{
-	width: 60px;
-	margin-bottom: 20px;
+	padding: 20px 0px 0px 0px;
 }
 
 hr{
-	background-color: #fff;
+	background-color: rgb(119, 119, 119);
 }
 .copyright{
-	margin-bottom: 0;
-	padding-bottom: 20px;
 	text-align: center;
 }
 
